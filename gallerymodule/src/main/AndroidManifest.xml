@@ -9,7 +9,7 @@
         android:supportsRtl="true">
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="es.guiguegon.gallerymodule.provider"
+            android:authorities="${applicationId}.gallerymodule.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
